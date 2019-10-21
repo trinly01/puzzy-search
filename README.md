@@ -1,6 +1,6 @@
 [![npm version](https://badge.fury.io/js/puzzy-search.svg)](https://badge.fury.io/js/puzzy-search)
 
-# feathers-nedb-puzzy-search
+# puzzy-search
 Add google-like `search` and `auto suggest` (did you mean...)
 
  - [x] misspelled words
