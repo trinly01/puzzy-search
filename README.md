@@ -3,9 +3,9 @@
 # feathers-nedb-puzzy-search
 Add google-like `search` and `auto suggest` (did you mean...)
 
- - [x] words spelled wrong
+ - [x] misspelled words
  - [x] fuzzy search
- - [x] Dod you mean...
+ - [x] suggest similar words
 
 <p align="center">
   <img src="search.gif"/>
