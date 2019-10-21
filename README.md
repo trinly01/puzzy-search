@@ -22,15 +22,18 @@ npm install puzzy-search
 
 ## Usage
 ```js
-const { search, suggest } = require('puzzy-search')
+const { search, suggest, regex } = require('puzzy-search')
 
 const sentence = 'You want the web server to support four of the most popular programming paradigms.'
 
 const str = 'puppular programmng paradim'
 
 search(str, sentence) // true
+
 suggest(str, sentence) // popular programming paradigm
+
 regex(str) // new RegExp(...puzzy...)
+
 sentence.match(regex(str)) !== null // true
 ```
 

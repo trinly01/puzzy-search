@@ -1,6 +1,6 @@
 {
   "name": "puzzy-search",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "description": "Add google-like search and auto suggest (did you mean...)",
   "main": "dist/index.js",
   "scripts": {
