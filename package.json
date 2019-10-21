@@ -1,0 +1,37 @@
+{
+  "name": "puzzy-search",
+  "version": "1.0.0",
+  "description": "Add google-like search and auto suggest (did you mean...)",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trinly01/puzzy-search.git"
+  },
+  "keywords": [
+    "search",
+    "fuzzy",
+    "puzzy",
+    "pussy",
+    "suggest",
+    "similar",
+    "spell",
+    "typo"
+  ],
+  "author": "Trinmar A Boado <timi.boado@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/trinly01/puzzy-search/issues"
+  },
+  "homepage": "https://github.com/trinly01/puzzy-search#readme",
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "babel-loader": "^8.0.6",
+    "typo-js": "^1.0.3",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.9"
+  }
+}
