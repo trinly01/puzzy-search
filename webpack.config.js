@@ -15,6 +15,10 @@ module.exports = {
         exclude: /(node_modules)/,
         use: 'babel-loader',
       },
+      {
+        test: /\.(aff|dic)$/i,
+        use: 'raw-loader',
+      },
     ],
   },
   resolve: {
