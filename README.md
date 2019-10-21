@@ -30,6 +30,8 @@ const str = 'puppular programmng paradim'
 
 search(str, sentence) // true
 suggest(str, sentence) // popular programming paradigm
+regex(str) // new RegExp(...puzzy...)
+sentence.match(regex(str)) !== null // true
 ```
 
 
