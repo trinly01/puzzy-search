@@ -20,9 +20,15 @@ Add google-like `search` and `auto suggest` (did you mean...)
 npm install puzzy-search
 ```
 
+## CDN
+```html
+  <script src="https://unpkg.com/puzzy-search/dist/index.js"></script>
+```
+
 ## Usage
 ```js
 const { search, suggest, regex } = require('puzzy-search')
+// const { search, suggest, regex } = puzzySearch // for CDN
 
 const sentence = 'You want the web server to support four of the most popular programming paradigms.'
 
